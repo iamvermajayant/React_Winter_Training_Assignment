@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Poppins&family=Source+Sans+Pro:wght@700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.one {
+  padding: 0px;
+  min-width: 100vw;
+  min-height: 60vh;
+  margin : auto;
+  background-color: #fff4a3;
+  display: flex;
+  justify-content: space-between;
+}
+.two {
+  padding: 0px;
+  max-width: 200vw;
+  min-height: 60vh;
+  background-color: #282a35;
+  display: flex;
+  justify-content: space-between;
+  color : #FFF;
+}
+.image-one,
+.image-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2.5rem;
+  flex-direction: column;
+  object-fit: contain;
+}
+.info-one,
+.info-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100vh;
+  margin-right: 3rem;
+}
+
+.border-design {
+  display: flex;
+  flex-direction: column;
+  border: 10px solid #e7e9eb;
+  background-color: #e7e9eb;
+  margin-left: 10rem;
+  border-radius: 5px;
+}
+#image-design {
+  margin-bottom: 2rem;
+}
+
+#css-button {
+  height: 1.5rem;
+  width: 14rem;
+  outline: none;
+  background-color: #04aa6d;
+  color: #fff;
+  font-size: 19px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  border: none;
+  text-align: center;
+}
+
+#css-button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 110px;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  margin: 0px;
+}
+
+p {
+  font-size: 19px;
+}
+
+#css-button2 {
+  height: 1.5rem;
+  width: 14rem;
+  outline: none;
+  background-color: #04aa6d;
+  color: #fff;
+  font-size: 19px;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  border: none;
+  text-align: center;
+}
+
+#css-button2:hover {
+  cursor: pointer;
+}
